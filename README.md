@@ -1,5 +1,7 @@
 # self-signed-ssl-certificate
 documenting how to create a self signed ssl certificate
+@see https://help.ubuntu.com/lts/serverguide/certificates-and-security.html
+@see https://stackoverflow.com/questions/43665243/chrome-invalid-self-signed-ssl-cert-subject-alternative-name-missing
 
 change www.lsk.loc to your domain in v3.ext and all commands
 
