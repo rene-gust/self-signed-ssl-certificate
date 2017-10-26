@@ -27,6 +27,6 @@ openssl req -new -x509 -extensions v3_ca -keyout cakey.pem -out cacert.pem -days
 sudo mv cakey.pem /etc/ssl/private/
 sudo mv cacert.pem /etc/ssl/certs/
 sudo openssl ca -in server.csr -config /etc/ssl/openssl.cnf
-sudo cp /etc/ssl/newcerts/01.pem /etc/ssl/newcerts/www.lsk.loc.crt
+sudo cp /etc/ssl/newcerts/01.pem /etc/ssl/certs/www.lsk.loc.crt
 ```
 
